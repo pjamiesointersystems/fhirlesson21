@@ -1,0 +1,21 @@
+SMART on FHIR run log
+
+Starting PKCE flow…
+Opened browser → https://dev-1h5yru1mv5rucu2k.us.auth0.com/authorize?response_type=code&client_id=TA1VrvyNfiAmsiwix7CPgrCWWbBs84dx&redirect_uri=http%3A%2F%2F127.0.0.1%3A8900%2Fcb&scope=user%2F%2A.%2A&state=H3oqoW10H5gB3iwRcgon2zXXdQuGW0&audience=https%3A%2F%2Flocalhost%3A8443%2Fcsp%2Fhealthshare%2Fdemo%2Ffhir%2Fr4&prompt=consent
+[green]Received code[/green] XC5DnQGvyRgX75KbietBOZ6wUWTthuoDCZFcAk1tQ0JWv
+[green]Access token acquired.[/green]
+[green]Decoded token payload:[/green]
+[blue]Raw bearer token:[/blue]
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1sbnV0ZW94MlBmcmFlS3pUOXJXciJ9.eyJodHRwczovL2ZoaXIuZXhhbXBsZS5jb20vY2xhaW1zL3BhdGllbnQiOiJQYXRpZW50LzEiLCJpc3MiOiJodHRwczovL2Rldi0xaDV5cnUxbXY1cnVjdTJrLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2M2RiYjJiYjk5MTFiZmI1ZTc5MzVkOWEiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo4NDQzL2NzcC9oZWFsdGhzaGFyZS9kZW1vL2ZoaXIvcjQiLCJpYXQiOjE3NTEwNDY0NTQsImV4cCI6MTc1MTEzMjg1NCwic2NvcGUiOiJ1c2VyLyouKiIsImF6cCI6IlRBMVZydnlOZmlBbXNpd2l4N0NQZ3JDV1diQnM4NGR4In0.RPaoJNA9Rw4U-wv_OrpoV3w5ydDYe59j3HXZHYhMTnZH_Ha2n81ervDOSPXtl3SruT2GxqzK1H5cWHxB729LdtAJ0GXoQwQb614vgqzrnhUEXXSZMq-fMOe2foji-cFuhjKJEbqI4xjV7bblFLoG0Bo6PtnX0iuikpgtcxbClBG25NB5hXihLHxSgNH-b_vZHlI4s-w96YSpdMywdUV3q5jBi2BGOE-7gqa5DfOHVsXJKdYkNgtBeGsRDnw0Kyg8RtExvfU4sbgpLJ4RFJS1DR4IjaG2kY8w3OUGMA0Z3yOXYiFqKJ2wh31KxyReFAA5GPIMNMksVJIgpEA8TSul5w
+[green]Decoded token payload:[/green]
+{
+  "https://fhir.example.com/claims/patient": "Patient/1",
+  "iss": "https://dev-1h5yru1mv5rucu2k.us.auth0.com/",
+  "sub": "auth0|63dbb2bb9911bfb5e7935d9a",
+  "aud": "https://localhost:8443/csp/healthshare/demo/fhir/r4",
+  "iat": 1751046454,
+  "exp": 1751132854,
+  "scope": "user/*.*",
+  "azp": "TA1VrvyNfiAmsiwix7CPgrCWWbBs84dx"
+}
+[yellow]Local token cleared; you are now logged out.[/yellow]

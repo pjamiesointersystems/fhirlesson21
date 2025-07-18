@@ -1,0 +1,19 @@
+SMART on FHIR run log
+
+Starting PKCE flow…
+Opened browser → https://dev-1h5yru1mv5rucu2k.us.auth0.com/authorize?response_type=code&client_id=7i8fQ6U4ATZl53w4lESWLapJBHkZ8d2p&redirect_uri=http%3A%2F%2F127.0.0.1%3A8765%2Fcb&scope=user%2F%2A.%2A&state=UDHqubeP8Jh2wf5nhIks3dYMMj15iJ&audience=https%3A%2F%2Flocalhost%3A8443%2Fcsp%2Fhealthshare%2Fdemo%2Ffhir%2Fr4&prompt=consent
+[green]Received code[/green] tzbRoPvt_nxI4M-wd9MbXXAPvHASGdc_TcA1WWeIdCMp5
+[green]Access token acquired.[/green]
+[green]Decoded token payload:[/green]
+[blue]Raw bearer token:[/blue]
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1sbnV0ZW94MlBmcmFlS3pUOXJXciJ9.eyJpc3MiOiJodHRwczovL2Rldi0xaDV5cnUxbXY1cnVjdTJrLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2M2RiYjJiYjk5MTFiZmI1ZTc5MzVkOWEiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo4NDQzL2NzcC9oZWFsdGhzaGFyZS9kZW1vL2ZoaXIvcjQiLCJpYXQiOjE3NTAzNTMxMTEsImV4cCI6MTc1MDM1MzIzMSwic2NvcGUiOiJ1c2VyLyouKiIsImF6cCI6IjdpOGZRNlU0QVRabDUzdzRsRVNXTGFwSkJIa1o4ZDJwIn0.6HgL8alsrmyfDO5JCE6yqBgnIPlqPM4PpL84tEKuUjITER_S7hUw4zvuDL1nlWIvm2t89FXs8GLJwV91a5FIG1vHg7Goq-yUBbOzj3xWQicQaWZqV3q4a5wIBQh45e_-vfXSMsTfpbr_kp6_6eH_YxEjOwovxtl2srN8pS0Wc9XBlNg9AcYOLkl7uKZX_BY5LpYv_17P9QVocTKIYPFu8e2x7TyAJcnTV3xcBK5WfWVZjVw7W-kTsTWXa9U9cL9bqAP57ooiKzOgkGR8lniSTSvzpcWcsbbIjgmb8XN6l4rf6F3Fb6ApFJajBuV61t7pgzkfv3zCpgDozPCbUKyuzQ
+[green]Decoded token payload:[/green]
+{
+  "iss": "https://dev-1h5yru1mv5rucu2k.us.auth0.com/",
+  "sub": "auth0|63dbb2bb9911bfb5e7935d9a",
+  "aud": "https://localhost:8443/csp/healthshare/demo/fhir/r4",
+  "iat": 1750353111,
+  "exp": 1750353231,
+  "scope": "user/*.*",
+  "azp": "7i8fQ6U4ATZl53w4lESWLapJBHkZ8d2p"
+}
